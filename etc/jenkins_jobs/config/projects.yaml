@@ -8,3 +8,15 @@
         - noop-check-communication
         - dsvm-tempest-full:
             node: devstack_slave
+
+#This needs to change. instead of using devstack_slave we use something from nodepool
+- project:
+    name: gerrit_test
+    github-org: absalon-james
+    node: master
+    vendor: myvendor
+
+    jobs:
+        - noop-check-communication
+        - dsvm-tempest-full:
+            node: devstack_slave
