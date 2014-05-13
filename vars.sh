@@ -5,5 +5,4 @@ export UPSTREAM_GERRIT_USER=daniel
 export UPSTREAM_GERRIT_SERVER=50.56.172.56
 export UPSTREAM_GERRIT_SSH_KEY_PATH=gerrit_key
 export JENKINS_SSH_KEY_PATH=jenkins_key
-export NODEPOOL_SSH_KEY_PATH=nodepool_key
 export PUBLISH_HOST=127.0.0.1
